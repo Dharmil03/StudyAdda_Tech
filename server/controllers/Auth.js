@@ -9,7 +9,6 @@ const Profile = require("../models/Profile")
 require("dotenv").config()
 
 // Signup Controller for Registering USers
-
 exports.signup = async (req, res) => {
   try {
     // Body se Data nikal lo (body se lelo)
