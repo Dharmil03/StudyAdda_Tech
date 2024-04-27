@@ -1,4 +1,4 @@
-const BASE_URL = "https://dharmil-study-notion-c051zl71u-dharmil03s-projects.vercel.app/api/v1"
+const BASE_URL = "https://dharmil-study-notion.vercel.app/api/v1"
 
 // AUTH ENDPOINTS
 export const endpoints = {
