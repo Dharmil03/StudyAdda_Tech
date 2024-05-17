@@ -8,20 +8,20 @@ const contactDetails = [
     icon: "HiChatBubbleLeftRight",
     heading: "Chat on us",
     description: "Our friendly team is here to help.",
-    details: "info@studyAdda.com",
+    details: "dharmil@nocontact",
   },
   {
     icon: "BiWorld",
     heading: "Visit us",
-    description: "Come and say hello at our office HQ.",
+    description: "Come and learn from me",
     details:
-      "Akshya Nagar 1st Block 1st Cross, Rammurthy nagar, Bangalore-560016",
+      "Mumbai near railway station",
   },
   {
     icon: "IoCall",
     heading: "Call us",
     description: "Mon - Fri From 8am to 5pm",
-    details: "+123 456 7869",
+    details: "+888 888 888",
   },
 ]
 

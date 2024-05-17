@@ -27,9 +27,6 @@ export default function SubSectionModal({
     getValues,
   } = useForm()
 
-  // console.log("view", view)
-  // console.log("edit", edit)
-  // console.log("add", add)
 
   const dispatch = useDispatch()
   const [loading, setLoading] = useState(false)
@@ -38,17 +35,14 @@ export default function SubSectionModal({
 
   useEffect(() => {
     if (view || edit) {
-      // console.log("modalData", modalData)
       setValue("lectureTitle", modalData.title)
       setValue("lectureDesc", modalData.description)
       setValue("lectureVideo", modalData.videoUrl)
     }
   }, [])
 
-  // detect whether form is updated or not
   const isFormUpdated = () => {
     const currentValues = getValues()
-    // console.log("changes after editing form values:", currentValues)
     if (
       currentValues.lectureTitle !== modalData.title ||
       currentValues.lectureDesc !== modalData.description ||
@@ -59,7 +53,6 @@ export default function SubSectionModal({
     return false
   }
 
-  // handle the editing of subsection
   const handleEditSubsection = async () => {
     const currentValues = getValues()
     // console.log("changes after editing form values:", currentValues)
